@@ -6,7 +6,7 @@ This is an anonymous repository of Finding Local Groupings of Time Series, ECML-
 
 ## Dependencies
 
-This application needs the latest version of the following packages (at the time of October 2021) and Python >= 3.7.
+This application needs the latest version of the following packages (at the time of April 2022) and Python >= 3.7.
 
 `numba`
 `numpy`
