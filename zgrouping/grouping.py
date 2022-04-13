@@ -53,10 +53,8 @@ def createGroupings(matrices, metas = None, alpha=0.9, eta=1.5, K=30, accept=Fal
     if debug == True:
         print("[DEBUG] BEGIN Association generation")
 
-    # profile chain only allows near-consecutive tiles
     tilesets = createMatrixCandidate(L_members.copy(), alpha=alpha, K=K)
     
-    # DATA STRUCTURE FORMING
     for tileset in tilesets:
         
         min_val = np.min(L_timeranges[tileset[0]:tileset[1], 0])

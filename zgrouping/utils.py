@@ -7,7 +7,6 @@ submitted to ECML-PKDD 2022
 
 from pyts.approximation import SymbolicAggregateApproximation
 import numpy as np
-from collections import Counter
 
 def znorm(samples):
   return (samples - samples.mean(axis=1)[:,...,np.newaxis]) / samples.std(axis=1)[:,...,np.newaxis]
