@@ -88,7 +88,6 @@ We provide various materials for the reproducibility of the experiment conducted
 - The full result of the experiment is available as a supplementary material, which can be found in the submission form.
 - The script to generate a whole result is provided in this repository (`experimentScript.py`).
   - The parameters are set to the ones used in the experiment.
-- The python plots used in the paper are also available here (in `plots` directory).
 
 ## Datasets
 
